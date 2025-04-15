@@ -1,8 +1,8 @@
-
 import React from "react";
 import { MapPin } from "lucide-react";
 import { WeatherData, TemperatureUnit } from "@/types/weather";
-import { formatTemperature, getWeatherIcon } from "@/utils/weatherUtils";
+import { formatTemperature } from "@/utils/weatherUtils";
+import { getWeatherIcon } from "@/components/WeatherIcons";
 
 interface WeatherHeaderProps {
   weatherData: WeatherData;

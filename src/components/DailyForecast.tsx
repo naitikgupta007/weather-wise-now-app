@@ -1,7 +1,8 @@
 
 import React from "react";
 import { ForecastDay, TemperatureUnit } from "@/types/weather";
-import { getDayName, formatDate, getWeatherIcon } from "@/utils/weatherUtils";
+import { getDayName, formatDate } from "@/utils/weatherUtils";
+import { getWeatherIcon } from "@/components/WeatherIcons";
 import { Card } from "@/components/ui/card";
 
 interface DailyForecastProps {

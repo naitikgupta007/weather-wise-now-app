@@ -2,7 +2,8 @@
 import React from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { HourlyForecast as HourlyForecastType, TemperatureUnit } from "@/types/weather";
-import { formatTime, getWeatherIcon } from "@/utils/weatherUtils";
+import { formatTime } from "@/utils/weatherUtils";
+import { getWeatherIcon } from "@/components/WeatherIcons";
 import { ScrollArea } from "@/components/ui/scroll-area";
 
 interface HourlyForecastProps {
